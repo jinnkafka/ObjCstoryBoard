@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7490F7CE1A82AC1600A945DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7490F7CD1A82AC1600A945DB /* main.m */; };
+		7490F7D11A82AC1600A945DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7490F7D01A82AC1600A945DB /* AppDelegate.m */; };
+		7490F7D41A82AC1600A945DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7490F7D31A82AC1600A945DB /* ViewController.m */; };
+		7490F7D71A82AC1600A945DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7490F7D51A82AC1600A945DB /* Main.storyboard */; };
+		7490F7D91A82AC1600A945DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7490F7D81A82AC1600A945DB /* Images.xcassets */; };
+		7490F7DC1A82AC1600A945DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7490F7DA1A82AC1600A945DB /* LaunchScreen.xib */; };
+		7490F7E81A82AC1600A945DB /* Mad_LibsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7490F7E71A82AC1600A945DB /* Mad_LibsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7490F7E21A82AC1600A945DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7490F7C01A82AC1600A945DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7490F7C71A82AC1600A945DB;
+			remoteInfo = "Mad Libs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7490F7C81A82AC1600A945DB /* Mad Libs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mad Libs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7490F7CC1A82AC1600A945DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7490F7CD1A82AC1600A945DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7490F7CF1A82AC1600A945DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7490F7D01A82AC1600A945DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7490F7D21A82AC1600A945DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7490F7D31A82AC1600A945DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7490F7D61A82AC1600A945DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7490F7D81A82AC1600A945DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7490F7DB1A82AC1600A945DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7490F7E11A82AC1600A945DB /* Mad LibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mad LibsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7490F7E61A82AC1600A945DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7490F7E71A82AC1600A945DB /* Mad_LibsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mad_LibsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7490F7C51A82AC1600A945DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7490F7DE1A82AC1600A945DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7490F7BF1A82AC1600A945DB = {
+			isa = PBXGroup;
+			children = (
+				7490F7CA1A82AC1600A945DB /* Mad Libs */,
+				7490F7E41A82AC1600A945DB /* Mad LibsTests */,
+				7490F7C91A82AC1600A945DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7490F7C91A82AC1600A945DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7490F7C81A82AC1600A945DB /* Mad Libs.app */,
+				7490F7E11A82AC1600A945DB /* Mad LibsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7490F7CA1A82AC1600A945DB /* Mad Libs */ = {
+			isa = PBXGroup;
+			children = (
+				7490F7CF1A82AC1600A945DB /* AppDelegate.h */,
+				7490F7D01A82AC1600A945DB /* AppDelegate.m */,
+				7490F7D21A82AC1600A945DB /* ViewController.h */,
+				7490F7D31A82AC1600A945DB /* ViewController.m */,
+				7490F7D51A82AC1600A945DB /* Main.storyboard */,
+				7490F7D81A82AC1600A945DB /* Images.xcassets */,
+				7490F7DA1A82AC1600A945DB /* LaunchScreen.xib */,
+				7490F7CB1A82AC1600A945DB /* Supporting Files */,
+			);
+			path = "Mad Libs";
+			sourceTree = "<group>";
+		};
+		7490F7CB1A82AC1600A945DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7490F7CC1A82AC1600A945DB /* Info.plist */,
+				7490F7CD1A82AC1600A945DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7490F7E41A82AC1600A945DB /* Mad LibsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7490F7E71A82AC1600A945DB /* Mad_LibsTests.m */,
+				7490F7E51A82AC1600A945DB /* Supporting Files */,
+			);
+			path = "Mad LibsTests";
+			sourceTree = "<group>";
+		};
+		7490F7E51A82AC1600A945DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7490F7E61A82AC1600A945DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7490F7C71A82AC1600A945DB /* Mad Libs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7490F7EB1A82AC1600A945DB /* Build configuration list for PBXNativeTarget "Mad Libs" */;
+			buildPhases = (
+				7490F7C41A82AC1600A945DB /* Sources */,
+				7490F7C51A82AC1600A945DB /* Frameworks */,
+				7490F7C61A82AC1600A945DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mad Libs";
+			productName = "Mad Libs";
+			productReference = 7490F7C81A82AC1600A945DB /* Mad Libs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7490F7E01A82AC1600A945DB /* Mad LibsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7490F7EE1A82AC1600A945DB /* Build configuration list for PBXNativeTarget "Mad LibsTests" */;
+			buildPhases = (
+				7490F7DD1A82AC1600A945DB /* Sources */,
+				7490F7DE1A82AC1600A945DB /* Frameworks */,
+				7490F7DF1A82AC1600A945DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7490F7E31A82AC1600A945DB /* PBXTargetDependency */,
+			);
+			name = "Mad LibsTests";
+			productName = "Mad LibsTests";
+			productReference = 7490F7E11A82AC1600A945DB /* Mad LibsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7490F7C01A82AC1600A945DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chen Jin";
+				TargetAttributes = {
+					7490F7C71A82AC1600A945DB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7490F7E01A82AC1600A945DB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7490F7C71A82AC1600A945DB;
+					};
+				};
+			};
+			buildConfigurationList = 7490F7C31A82AC1600A945DB /* Build configuration list for PBXProject "Mad Libs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7490F7BF1A82AC1600A945DB;
+			productRefGroup = 7490F7C91A82AC1600A945DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7490F7C71A82AC1600A945DB /* Mad Libs */,
+				7490F7E01A82AC1600A945DB /* Mad LibsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7490F7C61A82AC1600A945DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7490F7D71A82AC1600A945DB /* Main.storyboard in Resources */,
+				7490F7DC1A82AC1600A945DB /* LaunchScreen.xib in Resources */,
+				7490F7D91A82AC1600A945DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7490F7DF1A82AC1600A945DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7490F7C41A82AC1600A945DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7490F7D41A82AC1600A945DB /* ViewController.m in Sources */,
+				7490F7D11A82AC1600A945DB /* AppDelegate.m in Sources */,
+				7490F7CE1A82AC1600A945DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7490F7DD1A82AC1600A945DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7490F7E81A82AC1600A945DB /* Mad_LibsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7490F7E31A82AC1600A945DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7490F7C71A82AC1600A945DB /* Mad Libs */;
+			targetProxy = 7490F7E21A82AC1600A945DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7490F7D51A82AC1600A945DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7490F7D61A82AC1600A945DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7490F7DA1A82AC1600A945DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7490F7DB1A82AC1600A945DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7490F7E91A82AC1600A945DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7490F7EA1A82AC1600A945DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7490F7EC1A82AC1600A945DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mad Libs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7490F7ED1A82AC1600A945DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mad Libs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7490F7EF1A82AC1600A945DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mad LibsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mad Libs.app/Mad Libs";
+			};
+			name = Debug;
+		};
+		7490F7F01A82AC1600A945DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mad LibsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mad Libs.app/Mad Libs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7490F7C31A82AC1600A945DB /* Build configuration list for PBXProject "Mad Libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7490F7E91A82AC1600A945DB /* Debug */,
+				7490F7EA1A82AC1600A945DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7490F7EB1A82AC1600A945DB /* Build configuration list for PBXNativeTarget "Mad Libs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7490F7EC1A82AC1600A945DB /* Debug */,
+				7490F7ED1A82AC1600A945DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7490F7EE1A82AC1600A945DB /* Build configuration list for PBXNativeTarget "Mad LibsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7490F7EF1A82AC1600A945DB /* Debug */,
+				7490F7F01A82AC1600A945DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7490F7C01A82AC1600A945DB /* Project object */;
+}
